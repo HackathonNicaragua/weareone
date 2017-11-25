@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'materiales_profesional/index'
+
   get 'materiales_estudiantes/index'
 
   get 'usuario_profesional/index'
