@@ -1,0 +1,24 @@
+body{
+	margin-left: 20px;
+    margin-right: 20px;
+}
+#aside_materia_estu{
+background: #189;
+width: 150px;
+margin-top: 70px;
+}
+#btn_cate_materia_estu{
+color: #fff;
+font-size: 1.2em;
+}
+#lista_categoria_materia_estu{
+background: #1a7;
+height: 500px;	
+}
+#preguntas_materia_estu{
+	background: #a29;
+	margin-left:150px;
+    margin-top: -538px;
+    height: 522px;
+}
+
