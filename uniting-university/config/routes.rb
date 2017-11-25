@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'usuario_profesional/index'
+
   get 'usuario_estudiante/index'
 
   get 'visitante/index'
