@@ -1,0 +1,31 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Registro Estudiantes</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Usuario</th>
+      <th>Carnet</th>
+      <th>Contra</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @registro_estudiantes.each do |registro_estudiante| %>
+      <tr>
+        <td><%= registro_estudiante.usuario %></td>
+        <td><%= registro_estudiante.carnet %></td>
+        <td><%= registro_estudiante.contra %></td>
+        <td><%= link_to 'Show', registro_estudiante %></td>
+        <td><%= link_to 'Edit', edit_registro_estudiante_path(registro_estudiante) %></td>
+        <td><%= link_to 'Destroy', registro_estudiante, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Registro Estudiante', new_registro_estudiante_path %>
