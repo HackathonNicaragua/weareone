@@ -10,7 +10,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171126031615) do
+ActiveRecord::Schema.define(version: 20171126082549) do
+
+  create_table "reg_profesionals", force: :cascade do |t|
+    t.string "nombre_apellido"
+    t.string "usuariopro"
+    t.string "emailpro"
+    t.string "contrasenapro"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "regis_estudiantes", force: :cascade do |t|
     t.string "usuario"
