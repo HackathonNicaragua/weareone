@@ -1,5 +1,6 @@
 <h1>Bienvenidos <%= @usuarios %></h1>
 <br/>
+ <%= image_tag("fondo.png") %>
 <%= form_tag({:controller => "usuario_estudiante", :action => "index"}, :method => "post") do %>
 <p>Usuario:
 <%= text_field_tag 'usuario', @usuario%></p>

@@ -6,9 +6,70 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/stylesheets/freelancer.min.css" rel="stylesheet">
+    <link rel="stylesheet"  href="assets/stylesheets/scss/_bootstrap-overrides.scss">
+    <link rel="stylesheet"  href="assets/stylesheets/scss/_variables.scss">
+        <!-- Estilos propios -->
+        <link rel="stylesheet" type="text/css" href="assets/stylesheets/scss/layou.css">
   </head>
 
   <body>
-    <%= yield %>
+
+	<!-- Navigation -->
+    <nav id="mainNav">
+      <%= image_tag("header.png") %>
+      <div >
+        <button id="btn_inicio_layou" class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Inicio
+        </button>
+        <button id="btn_aceder_layou"  class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Aceder
+        </button>
+      </div>
+    </nav>
+    <!-- El yield se usa para mostrar el contenido de las demas paginas-->
+	<%= yield %>
+
+    <!-- Footer -->
+    <footer id="footer" >
+        <%= image_tag("footer.png") %>  
+    </footer>
+
+    
+   
+	
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="javascripts/jqBootstrapValidation.js"></script>
+    <script src="javascripts/contact_me.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="javascripts/freelancer.min.js"></script>
+
   </body>
 </html>

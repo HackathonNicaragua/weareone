@@ -10,7 +10,7 @@ Rails.application.routes.draw do
 
   get 'usuario_profesional/index'
 
-  post 'usuario_estudiante/index'
+  get'usuario_estudiante/index'
 
   get 'visitante/index'
 
