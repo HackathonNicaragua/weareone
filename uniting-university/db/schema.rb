@@ -12,15 +12,6 @@
 
 ActiveRecord::Schema.define(version: 20171126031615) do
 
-  create_table "reg_proves", force: :cascade do |t|
-    t.string "nombre_apellido"
-    t.string "usuario"
-    t.string "contrasena"
-    t.string "email"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
   create_table "regis_estudiantes", force: :cascade do |t|
     t.string "usuario"
     t.string "carnet"
