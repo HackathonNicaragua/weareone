@@ -1,6 +1,6 @@
 <h1>Bienvenidos <%= @usuarios %></h1>
 <br/>
-<%= form_tag({:controller => "usuario_profesional", :action => "index"}, :method => "post") do %>
+<%= form_tag({:controller => "usuario_profesional", :action => "index"}, :method => "get") do %>
 <p>Nombre y Apellido:
 <%= text_field_tag 'nombre_apellido', @nombre_apellido %></p>
 <p>Usuario:
