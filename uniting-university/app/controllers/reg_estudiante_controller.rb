@@ -1,5 +1,5 @@
 class RegEstudianteController < ApplicationController
-  def get
+  def post
     @usuario = params[:usuario]
   	@carnet = params[:carnet]
   	@contrasena = params[:contrasena]

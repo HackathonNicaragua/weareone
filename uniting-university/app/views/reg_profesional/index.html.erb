@@ -1,0 +1,13 @@
+<h1>Bienvenidos <%= @usuarios %></h1>
+<br/>
+<%= form_tag({:controller => "usuario_profesional", :action => "index"}, :method => "get") do %>
+<p>Nombre y Apellido:
+<%= text_field_tag 'nombre_apellido', @nombre_apellido %></p>
+<p>Usuario:
+<%= text_field_tag 'usuariopro', @usuariopro %></p>
+<p>Email:
+<%= text_field_tag 'emailpro', @emailpro%></p>
+<p>contrasena:
+<%= text_field_tag 'contrasenapro', @contrasenapro%></p>
+<%= submit_tag 'registrase' %>
+<%end%>
