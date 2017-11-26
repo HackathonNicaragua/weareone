@@ -1,9 +1,12 @@
 Rails.application.routes.draw do
-  get 'reg_profesional/index'
+  root 'home#index'
+  get 'home/index'
 
-  get 'reg_estudiante/index'
+  post 'reg_profesional/index'
 
-  get 'logiandose/index'
+  post 'reg_estudiante/index'
+
+  post 'logiandose/index'
 
   get 'materiales_profesional/index'
 

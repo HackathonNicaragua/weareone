@@ -1,4 +1,7 @@
 class LogiandoseController < ApplicationController
-  def index
+  def post
+    @usuario = params[:usuario]
+    @contrasena = params[:contrasena]
+    
   end
 end
