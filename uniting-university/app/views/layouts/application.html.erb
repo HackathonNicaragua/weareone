@@ -9,6 +9,21 @@
   </head>
 
   <body>
-    <%= yield %>
+    <div id="contenedor">
+     <nav>
+        <ul>
+           <li class="nab" > <%= link_to image_tag "hackathon diseño illustrador-09.png", :controller => "home", :action => "index" %> </li>
+           <li class="nab"> <%= link_to image_tag "hackathon diseño illustrador-08.png", :controller => "home", :action => "index" %> </li>
+        </ul>
+     </nav>
+     <section>
+     <%= yield %>
+     </section>
+  </div>
+  <footer class="navbar-default navbar-fixed-bottom">
+      <div class="container">
+        <p>Hello world!</p>
+      </div>
+</footer>
   </body>
 </html>

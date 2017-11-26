@@ -1,0 +1,37 @@
+<%= form_with(model: reg_profe, local: true) do |form| %>
+  <% if reg_profe.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(reg_profe.errors.count, "error") %> prohibited this reg_profe from being saved:</h2>
+
+      <ul>
+      <% reg_profe.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :nombre_apellido %>
+    <%= form.text_field :nombre_apellido, id: :reg_profe_nombre_apellido %>
+  </div>
+
+  <div class="field">
+    <%= form.label :usuario %>
+    <%= form.text_field :usuario, id: :reg_profe_usuario %>
+  </div>
+
+  <div class="field">
+    <%= form.label :contrasena %>
+    <%= form.text_field :contrasena, id: :reg_profe_contrasena %>
+  </div>
+
+  <div class="field">
+    <%= form.label :email %>
+    <%= form.text_field :email, id: :reg_profe_email %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

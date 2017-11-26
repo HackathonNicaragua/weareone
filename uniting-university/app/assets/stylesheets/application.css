@@ -13,3 +13,47 @@
  *= require_tree .
  *= require_self
  */
+ footer.navbar-default.navbar-fixed-bottom
+ {
+      background:red;
+      color:white;
+      padding:1em 0;
+ }
+ footer.navbar-default.navbar-fixed-bottom p
+ {
+      margin:0;
+ }
+ #contenedor {
+    background-color: #fff;
+    padding: 10px;
+    border: solid 1px #ccc;
+    box-shadow: 1px 1px 5px #000;
+    -moz-box-shadow: 1px 1px 5px #000;
+    -webkit-box-shadow: 1px 1px 5px #000;
+ }
+ nav .nab{
+   border: solid 1px #ccc;
+   background-color: #fff;
+   padding: 0;
+   margin-right: 10px;
+   box-shadow: 1px 1px 5px #000;
+   -moz-box-shadow: 1px 1px 5px #000;
+   -webkit-box-shadow: 1px 1px 5px #000;
+ }
+ nav .nab img{
+   height: 50px;
+   width: 50px;
+   margin: 0;
+ }
+ li{
+
+   list-style: none;
+   display: inline-block;
+ }
+ a{
+   text-decoration: none;
+ }
+ body{
+   background-image: "/assets/image/Education_index_UN_HDR_2007_2008.PNG";
+   margin: 20px 0px 20px 0px;
+ }
