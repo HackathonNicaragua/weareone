@@ -1,0 +1,30 @@
+body{
+	margin-left: 20px;
+    margin-right: 20px;
+}
+#aside_materia_pro{
+background: #189;
+width: 150px;
+margin-top: 70px;
+}
+#btn_cate_materia_pro{
+color: #fff;
+font-size: 1.2em;
+}
+#lista_categoria_materia_pro{
+background: #1a7;
+height: 500px;	
+}
+#preguntas_materia_pro{
+	background: #a29;
+	margin-left:150px;
+    margin-top: -522px;
+    height: 522px;
+}
+#comentario-text{
+	max-height: 150px;
+	height: 150px;
+	width: 400px;
+	max-width: 400px;
+}
+

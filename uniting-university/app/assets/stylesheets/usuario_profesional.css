@@ -1,0 +1,23 @@
+body{
+	margin-left: 20px;
+    margin-right: 20px;
+}
+#aside_profesional{
+background: #189;
+width: 150px;
+margin-top: 70px;
+}
+#btn_cate_profesional{
+color: #fff;
+font-size: 1.2em;
+}
+#lista_categoria_profesional{
+background: #1a7;
+height: 500px;	
+}
+#preguntas_profesional{
+	background: #a29;
+	margin-left:150px;
+    margin-top: -538px;
+    height: 522px;
+}

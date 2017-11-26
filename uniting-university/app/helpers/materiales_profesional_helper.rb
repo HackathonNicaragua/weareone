@@ -1,0 +1,2 @@
+module MaterialesProfesionalHelper
+end
