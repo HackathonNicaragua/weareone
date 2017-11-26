@@ -47,12 +47,12 @@ height: 500px;
 
 }
 #term img{
-	width: 150px; 
+	width: 90%; 
 	height:60%;
 	background-color: #088A85;
 }
 #term1 img{
-	width: 150px; 
+	width: 90%; 
 	height:60%;
 	background-color: #088A85;
 }
@@ -63,4 +63,16 @@ height: 500px;
 
 #ya{
 	background-color: #088A85;
+}
+
+input[type=checkbox]{
+
+	height: 30px;
+	width: 30px;
+	border-radius: 2%;
+		
+	vertical-align: middle;
+	background: transparent;
+
+	border: 4px solid;
 }
