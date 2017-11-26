@@ -13,10 +13,6 @@
  *= require_tree .
  *= require_self
  */
- td image_tag{
-   width: 150px;
-   height: 68px;
- }
  footer.navbar-default.navbar-fixed-bottom
  {
       background:red;
@@ -38,18 +34,16 @@
  nav .nab{
    border: solid 1px #ccc;
    background-color: #fff;
-   padding: 10px;
+   padding: 0;
+   margin-right: 10px;
+   box-shadow: 1px 1px 5px #000;
+   -moz-box-shadow: 1px 1px 5px #000;
+   -webkit-box-shadow: 1px 1px 5px #000;
  }
- image_tag{
+ nav .nab img{
    height: 50px;
-   width: 100px;
- }
- link_to{
-   left: 80%;
- }
- .nab:hover{
-   color: red;
-   background: black;
+   width: 50px;
+   margin: 0;
  }
  li{
 
@@ -60,10 +54,6 @@
    text-decoration: none;
  }
  body{
+   background-image: "/assets/image/Education_index_UN_HDR_2007_2008.PNG";
    margin: 20px 0px 20px 0px;
- }
- footer{
-   background: grey;
-   text-align: center;
-   height: 100%;
  }

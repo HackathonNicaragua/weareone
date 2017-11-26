@@ -11,15 +11,17 @@
        </header>
        <nav>
           <ul>
-             <li class="google_mas"> <%= link_to image_tag "hackathon diseño illustrador-03.png", :controller => "home", :action => "index" %> </li>
-             <li class="facebook"> <%= link_to image_tag "hackathon diseño illustrador-04.png", :controller => "home", :action => "index" %> </li>
-             <li class="twitter"> <%= link_to image_tag "hackathon diseño illustrador-05.png", :controller => "home", :action => "index" %> </li>
+             <li class="hom"> <%= link_to image_tag "hackathon diseño illustrador-03.png", :controller => "home", :action => "index" %> </li>
+             <li class="hom"> <%= link_to image_tag "hackathon diseño illustrador-04.png", :controller => "home", :action => "index" %> </li>
+             <li class="hom"> <%= link_to image_tag "hackathon diseño illustrador-05.png", :controller => "home", :action => "index" %> </li>
           </ul>
-          <div class="clear"></div>
        </nav>
        <section>
        <%= yield %>
        </section>
+    </div>
+    <div class="clear">
+      <label for="">Contactanos: </label><label for=""></label>
     </div>
 </body>
 </html>
