@@ -1,0 +1,11 @@
+<h1>Bienvenidos <%= @usuarios %></h1>
+<br/>
+<%= form_tag({:controller => "usuario_estudiante", :action => "index"}, :method => "post") do %>
+<p>Usuario:
+<%= text_field_tag 'usuario', @usuario%></p>
+<p>carnet:
+<%= text_field_tag 'carnet', @carnet%></p>
+<p>contrasena:
+<%= text_field_tag 'contrasena', @contrasena%></p>
+<%= submit_tag 'registrase' %>
+<%end%>

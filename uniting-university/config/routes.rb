@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  get 'reg_estudiante/index'
+  root 'reg_estudiante#index'
+
   get 'logiandose/index'
 
   get 'materiales_profesional/index'
@@ -7,7 +10,7 @@ Rails.application.routes.draw do
 
   get 'usuario_profesional/index'
 
-  get 'usuario_estudiante/index'
+  post 'usuario_estudiante/index'
 
   get 'visitante/index'
 
