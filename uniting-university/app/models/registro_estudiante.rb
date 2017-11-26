@@ -1,2 +1,0 @@
-class RegistroEstudiante < ApplicationRecord
-end
