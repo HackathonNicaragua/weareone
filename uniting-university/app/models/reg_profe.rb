@@ -1,2 +1,0 @@
-class RegProfe < ApplicationRecord
-end
