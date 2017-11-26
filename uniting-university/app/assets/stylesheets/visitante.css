@@ -8,7 +8,7 @@ margin-right: 20px;
 #aside_visitante{
 	background: #189;
 	width: 150px;
-	margin-top: 70px;
+	
 	}
 #btn_cate_vistante{
 color: #fff;
@@ -16,11 +16,20 @@ font-size: 1.2em;
 }
 #lista_categoria_visitante{
 background: #1a7;
-height: 500px;	
+height: 500px;
+padding-top:10%;	
 }
 #preguntas_visitante{
-	background: #a29;
+	position: relative;
+    background: #CDBFEB;
 	margin-left:150px;
-    margin-top: -538px;
+    margin-top: -539px;
     height: 522px;
 	}
+#preguntas_visitante img{
+	position: relative;
+	height:100%;
+	width:100%;
+	margin-bottom:20px;
+
+}

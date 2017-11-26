@@ -1,0 +1,33 @@
+body{
+	border: transparent;
+}
+#mainNav{
+	background: #abc;
+}
+
+#footer{
+	position: relative;
+	width:100%;
+	height:50px;
+}
+#btn_aceder_layou{
+	position: absolute;
+	left: 92%;
+	margin-top: -3.5%;
+}
+#btn_inicio_layou{
+	position: absolute;
+	left: 85%;
+	margin-top: -3.5%;
+	width: 70px;
+}
+#mainNav img{
+	height: 100px;
+	width:100%;
+	margin-top: -1.9%;
+	margin-bottom: -2%;
+}
+#footer img{
+	height:px;
+	width:100%;
+}
