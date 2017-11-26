@@ -1,31 +1,37 @@
-body{
-	margin-left: 20px;
-    margin-right: 20px;
-}
-#aside_estudiante{
-background: #189;
-width: 150px;
+
+#tam1{
+	width: 50px; 
+	height:20px;
+	background-color: #088A85;
 
 }
-#btn_cate_estudiante{
-color: #fff;
-font-size: 1.2em;
+#term img{
+	width: 90%; 
+	height:60%;
+	background-color: #088A85;
 }
-#lista_categoria_estudiante{
-background: #1a7;
-height: 500px;	
-padding-top:10%;
+#term1 img{
+	width: 90%; 
+	height:60%;
+	background-color: #088A85;
 }
-#preguntas_estudiante{
-	 position: relative;
-    background: #CDBFEB;
-	margin-left:150px;
-    margin-top: -539px;		
-    height: 522px;
+
+#color{
+	background-color: yellow;
 }
-#preguntas_estudiante img{
-	position: relative;
-	height:100%;
-	width:100%;
-	margin-bottom:20px;
+
+#ya{
+	background-color: #088A85;
+}
+
+input[type=checkbox]{
+
+	height: 30px;
+	width: 30px;
+	border-radius: 2%;
+		
+	vertical-align: middle;
+	background: transparent;
+
+	border: 4px solid;
 }
